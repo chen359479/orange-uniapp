@@ -8,11 +8,11 @@
 
 做了微信小程序端，实现了注册、登录等功能，主要还是以展示信息为主。
 
-后台node项目地址：https://gitee.com/chen359479/orange-node
+后台node项目地址：https://github.com/chen359479/orange-node
 
-前端vue项目地址：  https://gitee.com/chen359479/orange-vue
+前端vue项目地址：  https://github.com/chen359479/orange-vue
 
-小程序项目地址：    https://gitee.com/chen359479/orange-uniapp
+小程序项目地址：    https://github.com/chen359479/orange-uniapp
 
 资源网站预览地址：http://175.24.172.244:8088/#/index
 
