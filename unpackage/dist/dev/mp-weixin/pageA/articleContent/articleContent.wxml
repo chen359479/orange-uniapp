@@ -1,0 +1,1 @@
+<view class="data-v-29ab1a98"><view class="title data-v-29ab1a98">{{data.title}}</view><view style="padding:0 20px;" class="data-v-29ab1a98"><u-parse vue-id="7a2464d2-1" html="{{data.content}}" class="data-v-29ab1a98" bind:__l="__l"></u-parse></view></view>

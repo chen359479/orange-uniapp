@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/classify/classify",
+    "pages/my/my"
+  ],
+  "subPackages": [
+    {
+      "root": "pageA",
+      "pages": [
+        "search/search",
+        "content/content",
+        "article/article",
+        "articleContent/articleContent"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "茜茜源码",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#C0C0C0"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index"
+      },
+      {
+        "pagePath": "pages/classify/classify"
+      },
+      {
+        "pagePath": "pages/my/my"
+      }
+    ]
+  },
+  "preloadRule": {
+    "pages/index/index": {
+      "network": "all",
+      "packages": [
+        "pageA"
+      ]
+    }
+  },
+  "usingComponents": {}
+}

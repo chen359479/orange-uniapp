@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "首页",
+  "usingComponents": {
+    "u-swiper": "/node-modules/uview-ui/components/u-swiper/u-swiper",
+    "u-row": "/node-modules/uview-ui/components/u-row/u-row",
+    "u-col": "/node-modules/uview-ui/components/u-col/u-col",
+    "u-line": "/node-modules/uview-ui/components/u-line/u-line",
+    "u-image": "/node-modules/uview-ui/components/u-image/u-image",
+    "u-divider": "/node-modules/uview-ui/components/u-divider/u-divider",
+    "u-back-top": "/node-modules/uview-ui/components/u-back-top/u-back-top",
+    "foot": "/components/footer/footer",
+    "a-model": "/components/xghc-accredit/index"
+  }
+}

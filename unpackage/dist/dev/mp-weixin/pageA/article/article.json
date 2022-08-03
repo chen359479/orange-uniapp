@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "u-cell-item": "/node-modules/uview-ui/components/u-cell-item/u-cell-item"
+  }
+}

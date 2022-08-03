@@ -1,0 +1,68 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/classify/classify",
+			"style": {
+				"navigationBarTitleText": "分类"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}
+	],
+	"subPackages": [{
+		"root": "pageA", //文件夹名称，  pages文件夹同级新建一个就行
+		"pages": [{
+			"path": "search/search",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		}, 
+		{
+			"path": "content/content",
+			"style": {
+				"navigationBarTitleText": "详情"
+			}
+		}, 
+		{
+			"path": "article/article"
+		}, 
+		{
+			"path": "articleContent/articleContent"
+		}]
+	}],
+	"preloadRule": {
+		"pages/index/index": {
+			"network": "all",
+			"packages": ["pageA"]
+		}
+	},
+	"tabBar": {
+		"list": [{
+			"pagePath": "pages/index/index"
+		}, {
+			"pagePath": "pages/classify/classify"
+		}, {
+			"pagePath": "pages/my/my"
+		}]
+	},
+	"easycom": {
+		// npm安装方式
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "茜茜源码",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#C0C0C0"
+	}
+}
